@@ -1,5 +1,7 @@
-#include<iostream>
-int main(){
-    std::cout<<"HELLO WORLD\n";
-    return 0;
+#include "crow.h"
+#include"adminpanel.h"
+int main()
+{
+    AdminPanel adminsite;
+    adminsite.startcrow(9999);
 }
